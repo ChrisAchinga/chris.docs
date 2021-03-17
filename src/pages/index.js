@@ -8,32 +8,37 @@ import styles from './styles.module.css'
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Projects</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        My Projects documentations all in one place. I explain what they do and
+        why I built them. The docs also explains how and what tech stack the
+        projects use.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Who Is Chris</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I am a self taught developer who has to keep proving my skills and my
+        abilities to the world. I also love sharing my knowledge through
+        technical writing and participating in Tech Communities and their
+        activities.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Articles</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I am not the best writer out here, but I give it my best shot everytime
+        I take a bullet for the technical article. I understand the struggles of
+        keeping up to date with the dev tools, so I try as much as possible to
+        create reasonable technical articles/tuts
       </>
     ),
   },
@@ -59,8 +64,8 @@ function Home() {
   const { siteConfig = {} } = context
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description='Description will go into a meta tag in <head />'
+      title={`${siteConfig.title}`}
+      description='Chris Achinga - Technical Documentations for all my projects and technical stuff <head />'
     >
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className='container'>
@@ -72,7 +77,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={useBaseUrl('docs/doc1')}
+              to={useBaseUrl('docs/content')}
             >
               Dig In
             </Link>

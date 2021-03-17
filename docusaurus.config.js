@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'ChrisAchinga',
-  projectName: 'chris.docs', 
+  projectName: 'chris.docs',
   themeConfig: {
     navbar: {
       title: 'CdC',
@@ -20,7 +20,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/ChrisAchinga',
           label: 'GitHub',
@@ -35,12 +35,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Articles',
+              to: 'docs/articles',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Technical Blog',
+              href: 'https://chrisdev.hashnode.dev/',
             },
           ],
         },
@@ -85,14 +85,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/ChrisAchinga/chris.docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/ChrisAchinga/chris.docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -100,4 +98,4 @@ module.exports = {
       },
     ],
   ],
-};
+}
