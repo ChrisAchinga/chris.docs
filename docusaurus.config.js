@@ -35,12 +35,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Articles',
+              to: 'docs/articles',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Technical Blog',
+              href: 'https://chrisdev.hashnode.dev/',
             },
           ],
         },
@@ -85,12 +85,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/ChrisAchinga/chris.docs/tree/main/docs',
+          editUrl: 'https://github.com/ChrisAchinga/chris.docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/ChrisAchinga/chris.docs/tree/main/docs',
+          editUrl: 'https://github.com/ChrisAchinga/chris.docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
