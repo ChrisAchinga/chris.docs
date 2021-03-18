@@ -79,7 +79,7 @@ function Home() {
               )}
               to={useBaseUrl('docs/content')}
             >
-              Dig In
+              Table of Contents
             </Link>
           </div>
         </div>
