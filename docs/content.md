@@ -29,6 +29,7 @@ This page is a guidline and links for navigation yo various parts/pages and proj
 
 > All GitHub Repos, with mini projects or code that accomplishes a simple function
 
+Get all My Repositories [Here](https://github.com/ChrisAchinga?tab=repositories)
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
