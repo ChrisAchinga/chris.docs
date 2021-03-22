@@ -47,31 +47,32 @@ I have 4 ready-to-use components:
 
     The Header component is the one that appears right below the navigation bar on the template:
 
-![heaader-1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988266778/jEHiyGSRW.png)
-![header-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988276863/qJ3KKR3Nj.png)
+    ![heaader-1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988266778/jEHiyGSRW.png)
+    
+    ![header-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988276863/qJ3KKR3Nj.png)
 
 
-```js
-    import { Container } from 'react-bootstrap'
-    const Header = ({ head, description }) => {
-      return (
-        <Container>
-          <div className='starter-template text-center mt-5'>
-            <h1>{head} Page</h1>
-            <p className='lead text-capitalize'>{description}</p>
-          </div>
-        </Container>
-      )
-    }
-    export default Header
-```
+    ```js
+        import { Container } from 'react-bootstrap'
+        const Header = ({ head, description }) => {
+          return (
+            <Container>
+              <div className='starter-template text-center mt-5'>
+                <h1>{head} Page</h1>
+                <p className='lead text-capitalize'>{description}</p>
+              </div>
+            </Container>
+          )
+        }
+        export default Header
+    ```
 
-The header component is re-used in all pages, it takes in 2 props, title and description
-example:
+    The header component is re-used in all pages, it takes in 2 props, title and description
+    example:
 
-```
- <Header head={pageTitle} description={pageDescription} />
-``` 
+    ```
+     <Header head={pageTitle} description={pageDescription} />
+    ``` 
 
 
 3.  ### Menu
@@ -79,25 +80,25 @@ example:
    This is the navigation bar.
 
    
-![MENU-RXT.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988484382/xdaVxnn8n.png)
+    ![MENU-RXT.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988484382/xdaVxnn8n.png)
 
 4.  ### Footer
 
     A normal footer component:
 
-```js
-const Footer = () => {
-      const year = new Date().getFullYear()
-      return (
-        <>
-          <footer className='text-center text-capitalize'>
-            copyright react bootstrap starter &copy; {year}
-          </footer>
-        </>
-      )
-    }
-    export default Footer
-``` 
+    ```js
+    const Footer = () => {
+          const year = new Date().getFullYear()
+          return (
+            <>
+              <footer className='text-center text-capitalize'>
+                copyright react bootstrap starter &copy; {year}
+              </footer>
+            </>
+          )
+        }
+        export default Footer
+    ``` 
 
 
 ## Pages

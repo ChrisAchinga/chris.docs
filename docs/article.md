@@ -4,7 +4,9 @@ title: All Articles
 sidebar_label: All Articles
 ---
 
-1. ## Dev Tech Question: What Are These Things?
+## Dev Tech Question: What Are These Things?
+
+   ![blog-banner](../static/img/IMG-20210318-WA0000.jpg)
 
    >Published on Mar 18, 2021
 
@@ -16,7 +18,7 @@ sidebar_label: All Articles
 
    ***
 
-2. ## Creating a React & Bootstrap Template
+## Creating a React & Bootstrap Template
 
  >Published on Mar 17, 2021
 
