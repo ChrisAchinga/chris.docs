@@ -4,8 +4,6 @@ title: React Bootstrap Starter
 sidebar_label: React Bootstrap Starter
 ---
 
-
-
 > This is an update to the previous article I wrote on [React & Bootstrap Starter Template](https://chrisdev.hashnode.dev/react-and-bootstrap-starter-template)
 
 ## Why a Template?
@@ -47,11 +45,11 @@ I have 4 ready-to-use components:
 
     The Header component is the one that appears right below the navigation bar on the template:
 
-![heaader-1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988266778/jEHiyGSRW.png)
-![header-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988276863/qJ3KKR3Nj.png)
+    ![heaader-1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988266778/jEHiyGSRW.png)
 
+    ![header-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988276863/qJ3KKR3Nj.png)
 
-```js
+    ```js
     import { Container } from 'react-bootstrap'
     const Header = ({ head, description }) => {
       return (
@@ -64,29 +62,27 @@ I have 4 ready-to-use components:
       )
     }
     export default Header
-```
+    ```
 
-The header component is re-used in all pages, it takes in 2 props, title and description
-example:
+    The header component is re-used in all pages, it takes in 2 props, title and description
+    example:
 
-```
- <Header head={pageTitle} description={pageDescription} />
-``` 
-
+    ```
+     <Header head={pageTitle} description={pageDescription} />
+    ```
 
 3.  ### Menu
 
-   This is the navigation bar.
+This is the navigation bar.
 
-   
-![MENU-RXT.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988484382/xdaVxnn8n.png)
+    ![MENU-RXT.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988484382/xdaVxnn8n.png)
 
 4.  ### Footer
 
     A normal footer component:
 
-```js
-const Footer = () => {
+    ```js
+    const Footer = () => {
       const year = new Date().getFullYear()
       return (
         <>
@@ -97,8 +93,7 @@ const Footer = () => {
       )
     }
     export default Footer
-``` 
-
+    ```
 
 ## Pages
 
@@ -111,9 +106,7 @@ For the template, I used 2 sample pages: the landing page and about page.
 
 I used react-router-dom to set the two pages up.
 
-
 ![APP-RXT.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615988581053/4sICchbxs.png)
-
 
 ## Download and Installation
 
@@ -136,7 +129,9 @@ Run locally:
 ```powershell-interactive
 npm start
 ```
+
 #### The End!
+
 The repo is open to suggestions and free to use:
 [GitHub](https://github.com/ChrisAchinga/react-bootstrap-starter)
 
